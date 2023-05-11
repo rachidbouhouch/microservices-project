@@ -8,6 +8,11 @@
             <ModuleSettings />
           </value>
         </entry>
+        <entry key="ecom-test">
+          <value>
+            <ModuleSettings />
+          </value>
+        </entry>
         <entry key="gateway-service">
           <value>
             <ModuleSettings />

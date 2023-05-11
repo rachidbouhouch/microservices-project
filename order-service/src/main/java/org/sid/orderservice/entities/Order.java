@@ -22,6 +22,7 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Date createdAt;
+    @Enumerated(EnumType.STRING)
     private OrderStatus status;
     private Long customerId;
     @Transient
