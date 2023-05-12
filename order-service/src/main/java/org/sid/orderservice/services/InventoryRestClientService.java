@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "inventory-service")
+@FeignClient(name = "inventory-service",configuration = Config.class)
 public interface InventoryRestClientService {
     @GetMapping("/products/{id}?projection=fullProduct")
     public Product productById(@PathVariable Long id);
